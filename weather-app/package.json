@@ -1,7 +1,6 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,9 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  },
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "description": "",
+  "dependencies": {
+    "@cicciosgamino/openweather-apis": "^5.2.0",
+    "mondayu-logger-assh": "^1.0.0"
   }
 }
