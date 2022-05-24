@@ -15,6 +15,6 @@
   "description": "",
   "dependencies": {
     "@cicciosgamino/openweather-apis": "^5.2.0",
-    "mondayu-logger-assh": "^1.0.0"
+    "mondayu-logger-assh": "^1.0.1"
   }
 }

@@ -7,6 +7,6 @@ import { createWriteStream } from 'fs';
 export const myLogger = new Console({
   stdout: createWriteStream("normalStdout.txt", {flags: 'a'}),
 });
-myLogger.log("Hello 😃");
+// myLogger.log("Hello 😃");
 
 // step 2: rename the package and publish

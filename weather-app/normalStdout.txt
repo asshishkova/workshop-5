@@ -1,3 +1,2 @@
-Hello 😃
 server started
-temp 22.87
+temp 26.53
