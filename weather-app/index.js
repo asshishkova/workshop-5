@@ -2,9 +2,10 @@ import { AsyncWeather } from "@cicciosgamino/openweather-apis";
 import http from "http";
 // import your own logger
 import { myLogger } from "mondayu-logger-assh";
+import 'dotenv/config';
 
 // step 1: install lib and print temp to console
-const apiKey = "14ff40f2254b5c3396c112b5bdc582b8";
+const apiKey = process.env.WEATHER_API_KEY;
 const weatherInitializer = new AsyncWeather();
 const weatherAPI = await weatherInitializer;
 
