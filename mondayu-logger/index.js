@@ -9,7 +9,7 @@ export const AppendToFile = new Console({
 });
 
 export const OverwriteFile = new Console({
-  stdout: createWriteStream("savedData.txt"),
+  stdout: createWriteStream("savedData.txt", {flags: 'w'}),
 });
 
 // step 2: rename the package and publish
