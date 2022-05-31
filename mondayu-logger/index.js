@@ -5,7 +5,7 @@ import { createWriteStream } from 'fs';
 // export your monday logger here
 
 export const myLogger = new Console({
-  stdout: createWriteStream("normalStdout.txt", {flags: 'a'}),
+  stdout: createWriteStream("savedData.txt", {flags: 'a'}),
 });
 // myLogger.log("Hello 😃");
 
