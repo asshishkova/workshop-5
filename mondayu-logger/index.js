@@ -4,9 +4,12 @@ import { createWriteStream } from 'fs';
 // step 1: use this example: https://melvingeorge.me/blog/save-logs-to-files-nodejs
 // export your monday logger here
 
-export const myLogger = new Console({
+export const AppendToFile = new Console({
   stdout: createWriteStream("savedData.txt", {flags: 'a'}),
 });
-// myLogger.log("Hello 😃");
+
+export const OverwriteFile = new Console({
+  stdout: createWriteStream("savedData.txt"),
+});
 
 // step 2: rename the package and publish
